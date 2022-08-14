@@ -1,5 +1,5 @@
 from _Framework.MixerComponent import MixerComponent
-from SpecialChannelStripComponent import SpecialChannelStripComponent
+from .SpecialChannelStripComponent import SpecialChannelStripComponent
 
 
 class SpecialMixerComponent(MixerComponent):

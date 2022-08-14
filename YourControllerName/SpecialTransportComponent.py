@@ -9,8 +9,8 @@ from _Framework.EncoderElement import EncoderElement #added
 from _Framework.SubjectSlot import subject_slot #added
 #TEMPO_TOP = 300.0
 #TEMPO_BOTTOM = 40.0
-from MIDI_Map import TEMPO_TOP
-from MIDI_Map import TEMPO_BOTTOM
+from .MIDI_Map import TEMPO_TOP
+from .MIDI_Map import TEMPO_BOTTOM
 class SpecialTransportComponent(TransportComponent):
     __doc__ = ' TransportComponent that only uses certain buttons if a shift button is pressed '
     def __init__(self):
